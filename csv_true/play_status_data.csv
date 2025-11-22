@@ -1,0 +1,8 @@
+play_status_id,play_status
+1,Backlog
+2,Completed
+3,Dropped
+4,Replay
+5,Active
+6,Retired
+7,with_friends
