@@ -7,4 +7,9 @@ Anulandgames comes in three parts:
 ### Tables and data
 The csv files needed to build the database is included in the tables_template file or you can get my own csv from csv_true and fill them in as needed. There are six tables in total.
 ### The Database
-Before we can enter all the tables into a database, we need to create a postgres container for docker. 
+Before we can enter all the tables into a database, we need to create a postgres container for docker. Check the database folder for the full readme on how to create the docker containers, add the csv files into the database and check the data using the built in web GUI in adminer.
+
+#API PostgRest section
+
+---
+

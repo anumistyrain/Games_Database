@@ -2,7 +2,7 @@
 
 Before we go forward create a folder called csv in this directory and add the six csv files that will make up the database to this folder. The docker-compose.yml file mounts this folder for csv access.
 
-<mark style="background: #FF5582A6;">IMPORTANT: Update any container/folder/file names to whatever you choose to use</mark>
+IMPORTANT: Update any container/folder/file names to whatever you choose to use
 ---
 
 First we need to create the database container in docker. Go to the directory in which you want to build the container.
