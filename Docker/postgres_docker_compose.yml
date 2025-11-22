@@ -1,0 +1,18 @@
+# change file name to docker-compose.yml
+services:
+  db:
+    image: postgres:15
+    container_name: anuland_postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: adminpassword
+      POSTGRES_DB: gamesdb
+    volumes:
+      - pgdata:/var/lib/postgresql/data   # <-- named volume
+      - ./csv:/csv                        # <-- bind mount for CSV access
+
+volumes:
+  pgdata:                                  # <-- named volume declared here
